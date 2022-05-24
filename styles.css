@@ -767,6 +767,11 @@ footer .branding {
     text-align: center;
   }
 
+  #program .cta {
+    background-color: initial;
+    text-decoration: underline;
+  }
+
   #program .item-description {
     font-size: 0.85rem;
   }
