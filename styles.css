@@ -125,9 +125,13 @@ header nav.show {
 
 #nav-bar #menu a {
   color: var(--nutral);
-  border-bottom: 1px solid #fff1;
   padding: 1.5rem 3rem;
   font-weight: 300;
+}
+
+#nav-bar #menu .menu-list li {
+  border-bottom: 1px solid #fff1;
+  padding-bottom: 25px;
 }
 
 #nav-bar #menu a.active {
@@ -220,9 +224,26 @@ section {
   width: 65%;
 }
 
+#hero-about h1 {
+  padding-top: 1rem;
+}
+
+#hero-about h1::after {
+  border-bottom: 2px solid var(--secondary);
+  position: absolute;
+  height: 1px;
+  width: 3rem;
+  content: '';
+  top: 15rem;
+  inset-inline-start: 50%;
+  margin-inline-start: -1.5rem;
+}
+
+
 #hero-about h1,
 #hero-about h2 {
   color: var(--secondary);
+  padding-bottom: 5rem;
 }
 
 #hero-about h2 {
@@ -328,6 +349,10 @@ section {
   font-size: 1.5rem;
   font-weight: 600;
   align-self: center;
+}
+
+#program .item:hover {
+  border: 2px solid #fff;
 }
 
 #speakers {
@@ -494,12 +519,10 @@ footer .branding {
 }
 
 .standout .wrapper .icon {
-  width: 94%;
-  height: 50%;
+  width: 100%;
   border: 2px solid var(--neutral);
   padding: 1rem 1rem;
   border-radius: 0.25rem;
-  transform: scale(0.5);
   object-position: center center;
 }
 
@@ -510,7 +533,18 @@ footer .branding {
 }
 
 .standout .wrapper .info .title {
-  color: var(--secondary);
+  color: var(--primary);
+}
+
+.title::after {
+  border-bottom: 2px solid var(--secondary);
+  position: absolute;
+  height: 1px;
+  width: 3rem;
+  content: '';
+  bottom: -15rem;
+  inset-inline-start: 50%;
+  margin-inline-start: -1.5rem;
 }
 
 #otherWcib {
@@ -572,6 +606,19 @@ footer .branding {
   z-index: 1;
 }
 
+.footer-logo {
+  display: block;
+  font-family: var(--sans-font);
+  font-weight: 500;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+}
+
+.footer-logo span {
+  color: var(--secondary);
+  font-weight: 200;
+}
+
 @media (min-width: 768px) {
   .no-scroll {
     overflow-y: auto;
@@ -629,6 +676,15 @@ footer .branding {
     display: none;
   }
 
+  #nav-bar #menu .menu-list {
+    display: flex;
+    list-style: none;
+  }
+
+  #nav-bar #menu .menu-list li {
+    padding-bottom: 0;
+  }
+
   #nav-bar #menu a {
     padding: 2rem 1rem;
     display: flex;
@@ -648,7 +704,7 @@ footer .branding {
   }
 
   section {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
   }
 
   #hero {
@@ -714,6 +770,10 @@ footer .branding {
     display: none;
   }
 
+  #hero-about h1::after {
+    top: 12rem;
+  }
+
   #hero-about {
     margin-top: 4rem;
   }
@@ -725,6 +785,19 @@ footer .branding {
   #hero-about .description {
     max-width: 40rem;
     margin-inline: auto;
+  }
+
+  .title::after{
+    bottom: -10rem;
+  }
+
+  .sponsor-about {
+    display: none;
+  }
+
+  .footer-about {
+    background-color: #333;
+    color: #fff;
   }
 
   #otherWcib .other-programs {

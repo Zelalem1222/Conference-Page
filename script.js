@@ -1,6 +1,6 @@
 // toggle mobile menu
 const menu = document.getElementById('menu');
-const menuLinks = document.querySelectorAll('#menu a');
+const menuLinks = document.querySelectorAll('.menu-list a');
 const menuToggler = document.getElementById('menu-toggler');
 const closeMenuBtn = document.getElementById('menu-close-btn');
 
