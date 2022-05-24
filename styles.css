@@ -239,7 +239,6 @@ section {
   margin-inline-start: -1.5rem;
 }
 
-
 #hero-about h1,
 #hero-about h2 {
   color: var(--secondary);
@@ -658,6 +657,14 @@ footer .branding {
     padding: 1rem 2rem;
   }
 
+  .footer-logo {
+    display: block;
+    font-family: var(--sans-font);
+    font-weight: 500;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+  }
+
   #logo span {
     color: var(--secondary);
     font-weight: 200;
@@ -798,7 +805,7 @@ footer .branding {
     margin-inline: auto;
   }
 
-  .title::after{
+  .title::after {
     bottom: -10rem;
   }
 
