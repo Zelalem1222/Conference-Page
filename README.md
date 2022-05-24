@@ -12,6 +12,10 @@
 - Frameworks
 - Technologies used
 
+## Live Demo (if available)
+
+[Live Demo Link](https://zelalem1222.github.io/Conference-Page/)
+
 ## Authors
 
 - GitHub: [Zelalem1222](https://github.com/Zelalem1222)
@@ -29,6 +33,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Original design idea by Cindy Shin in Behance.
+- Original design idea by [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) in Behance.
 
 

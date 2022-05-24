@@ -678,6 +678,7 @@ footer .branding {
 
   #nav-bar #menu .menu-list {
     display: flex;
+    gap: 1rem;
     list-style: none;
   }
 
@@ -695,8 +696,18 @@ footer .branding {
     transition: color 300ms;
   }
 
+  #nav-bar #menu .menu-list .ib-campaign-list {
+    align-self: center;
+  }
+
   #nav-bar #menu a.home-link {
     display: none;
+  }
+
+  #nav-bar #menu a.ib-campaign {
+    border: 2px solid var(--secondary-dark);
+    color: var(--secondary);
+    padding: 0.5rem 0.75rem;
   }
 
   #nav-bar #menu a:hover {
