@@ -50,9 +50,9 @@ const speakers = [
     bio: 'Szostak earned his Ph.D. in biochemistry at Cornell University. Subsequently, he started his own lab at the Sydney Farber Cancer Institute at Harvard Medical School.',
   },
   {
-    name: 'Yonas',
+    name: 'Abel Desalegne',
     title: 'Software Enginner',
-    image: 'person15.jpg',
+    image: 'person155.jpg',
     bio: 'He is a motivation speaker and Inspired a lot of people.',
   },
   {
